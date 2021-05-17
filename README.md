@@ -1,1 +1,1 @@
-# Libary Application
+# Library Application
