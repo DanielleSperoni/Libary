@@ -3,6 +3,8 @@
   --white: rgb(233, 232, 232);
   --cream: rgb(248, 208, 195);
   --blue-input: rgb(21, 36, 77, 0.70);
+  --light-blue:  #71a9ce;
+  --grey: #525151;
 }
 body {
   background-color: var(--blue);
@@ -106,5 +108,26 @@ label {
 /* remove the text box for text input */
 .text-input:focus {
   outline: none;
-  border-bottom: 2px dotted rgb(221, 40, 40);
+  border-bottom: 2px dotted #dd2828;
+}
+
+
+/* format body of table */
+td {
+  padding: .7rem;
+  background-color: var(--light-blue);
+  font-size: 13px;
+}
+
+th, td {
+  border: var(--grey) thin solid;
+}
+
+
+/* delete button */
+.delete-button {
+  background-color: #dd2828;
+  padding: .4rem;
+  border: solid thin var(--grey);
+  border-radius: 3px;
 }
